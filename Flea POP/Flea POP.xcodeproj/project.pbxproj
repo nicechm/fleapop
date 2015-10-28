@@ -27,13 +27,6 @@
 		2BC1E81E1BE0DEAC007557B3 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BC1E81D1BE0DEAC007557B3 /* SystemConfiguration.framework */; };
 		2BC1E8201BE0DEBC007557B3 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BC1E81F1BE0DEBC007557B3 /* libz.tbd */; };
 		2BC1E8221BE0DECE007557B3 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BC1E8211BE0DECE007557B3 /* libsqlite3.tbd */; };
-		2BC1E82E1BE0E50C007557B3 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BC1E8271BE0E50C007557B3 /* Bolts.framework */; settings = {ASSET_TAGS = (); }; };
-		2BC1E82F1BE0E50C007557B3 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BC1E8281BE0E50C007557B3 /* Parse.framework */; settings = {ASSET_TAGS = (); }; };
-		2BC1E8301BE0E50C007557B3 /* ParseCrashReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BC1E8291BE0E50C007557B3 /* ParseCrashReporting.framework */; settings = {ASSET_TAGS = (); }; };
-		2BC1E8311BE0E50C007557B3 /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BC1E82A1BE0E50C007557B3 /* ParseFacebookUtils.framework */; settings = {ASSET_TAGS = (); }; };
-		2BC1E8321BE0E50C007557B3 /* ParseFacebookUtilsV4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BC1E82B1BE0E50C007557B3 /* ParseFacebookUtilsV4.framework */; settings = {ASSET_TAGS = (); }; };
-		2BC1E8331BE0E50C007557B3 /* ParseTwitterUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BC1E82C1BE0E50C007557B3 /* ParseTwitterUtils.framework */; settings = {ASSET_TAGS = (); }; };
-		2BC1E8341BE0E50C007557B3 /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BC1E82D1BE0E50C007557B3 /* ParseUI.framework */; settings = {ASSET_TAGS = (); }; };
 		F64FEE6574744F259DD411B4 /* libPods-Flea POP.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A1F0C0599B81C0A7F187F9F /* libPods-Flea POP.a */; };
 /* End PBXBuildFile section */
 
@@ -88,13 +81,6 @@
 		2BC1E8211BE0DECE007557B3 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		2BC1E8231BE0DEDA007557B3 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		2BC1E8251BE0DEE0007557B3 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
-		2BC1E8271BE0E50C007557B3 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
-		2BC1E8281BE0E50C007557B3 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
-		2BC1E8291BE0E50C007557B3 /* ParseCrashReporting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseCrashReporting.framework; sourceTree = "<group>"; };
-		2BC1E82A1BE0E50C007557B3 /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
-		2BC1E82B1BE0E50C007557B3 /* ParseFacebookUtilsV4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtilsV4.framework; sourceTree = "<group>"; };
-		2BC1E82C1BE0E50C007557B3 /* ParseTwitterUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseTwitterUtils.framework; sourceTree = "<group>"; };
-		2BC1E82D1BE0E50C007557B3 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
 		7A1F0C0599B81C0A7F187F9F /* libPods-Flea POP.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Flea POP.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -103,22 +89,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2BC1E8341BE0E50C007557B3 /* ParseUI.framework in Frameworks */,
 				2BC1E8221BE0DECE007557B3 /* libsqlite3.tbd in Frameworks */,
 				2BC1E8201BE0DEBC007557B3 /* libz.tbd in Frameworks */,
 				2BC1E81E1BE0DEAC007557B3 /* SystemConfiguration.framework in Frameworks */,
-				2BC1E82E1BE0E50C007557B3 /* Bolts.framework in Frameworks */,
 				2BC1E81C1BE0DEA0007557B3 /* StoreKit.framework in Frameworks */,
-				2BC1E8301BE0E50C007557B3 /* ParseCrashReporting.framework in Frameworks */,
 				2BC1E81A1BE0DE98007557B3 /* Security.framework in Frameworks */,
-				2BC1E82F1BE0E50C007557B3 /* Parse.framework in Frameworks */,
-				2BC1E8311BE0E50C007557B3 /* ParseFacebookUtils.framework in Frameworks */,
 				2BC1E8181BE0DE92007557B3 /* QuartzCore.framework in Frameworks */,
-				2BC1E8321BE0E50C007557B3 /* ParseFacebookUtilsV4.framework in Frameworks */,
 				2BC1E8161BE0DE8C007557B3 /* CoreLocation.framework in Frameworks */,
 				2BC1E8141BE0DE86007557B3 /* CoreGraphics.framework in Frameworks */,
 				2BC1E8121BE0DE7F007557B3 /* CFNetwork.framework in Frameworks */,
-				2BC1E8331BE0E50C007557B3 /* ParseTwitterUtils.framework in Frameworks */,
 				2BC1E8101BE0DE78007557B3 /* AudioToolbox.framework in Frameworks */,
 				F64FEE6574744F259DD411B4 /* libPods-Flea POP.a in Frameworks */,
 			);
@@ -144,13 +123,6 @@
 		2A7F6FF8DEE73FC1DE68A8DB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				2BC1E8271BE0E50C007557B3 /* Bolts.framework */,
-				2BC1E8281BE0E50C007557B3 /* Parse.framework */,
-				2BC1E8291BE0E50C007557B3 /* ParseCrashReporting.framework */,
-				2BC1E82A1BE0E50C007557B3 /* ParseFacebookUtils.framework */,
-				2BC1E82B1BE0E50C007557B3 /* ParseFacebookUtilsV4.framework */,
-				2BC1E82C1BE0E50C007557B3 /* ParseTwitterUtils.framework */,
-				2BC1E82D1BE0E50C007557B3 /* ParseUI.framework */,
 				2BC1E8251BE0DEE0007557B3 /* Social.framework */,
 				2BC1E8231BE0DEDA007557B3 /* Accounts.framework */,
 				2BC1E8211BE0DECE007557B3 /* libsqlite3.tbd */,
@@ -263,7 +235,6 @@
 				2BA1B9E71BDF89280023D4A0 /* Sources */,
 				2BA1B9E81BDF89280023D4A0 /* Frameworks */,
 				2BA1B9E91BDF89280023D4A0 /* Resources */,
-				E37019EB73C26DA55F4C5977 /* Embed Pods Frameworks */,
 				74E80F6979FC7C75B258AF1D /* Copy Pods Resources */,
 			);
 			buildRules = (
@@ -409,21 +380,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		E37019EB73C26DA55F4C5977 /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Flea POP/Pods-Flea POP-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

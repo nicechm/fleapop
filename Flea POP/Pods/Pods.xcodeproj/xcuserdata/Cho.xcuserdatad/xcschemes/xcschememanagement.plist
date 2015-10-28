@@ -4,45 +4,35 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>AFNetworking.xcscheme</key>
+		<key>Pods-Flea POP-Bolts.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>1</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
-		<key>Bolts.xcscheme</key>
+		<key>Pods-Flea POP-Parse.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>2</integer>
-		</dict>
-		<key>Parse.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>3</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
 		<key>Pods-Flea POP.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>4</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>3C40AD938D23DF5F8345D23B4D3E1644</key>
+		<key>48222A12279B9C76B7057C2C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>410B25DF16EA5C5B3E2698F74F9625FB</key>
+		<key>7F5BBB7EDDC567B82A601D13</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>5366B7F679CF2BA31EA583EA35CA2D90</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>5AC87EFF3C73E5F4E7A1AAEBA083D2B6</key>
+		<key>AAC892F3233FF31F4659094D</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7F5BBB7EDDC567B82A601D13"
-               BuildableName = "libPods-Flea POP.a"
-               BlueprintName = "Pods-Flea POP"
+               BlueprintIdentifier = "48222A12279B9C76B7057C2C"
+               BuildableName = "libPods-Flea POP-Parse.a"
+               BlueprintName = "Pods-Flea POP-Parse"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

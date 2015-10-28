@@ -4,7 +4,7 @@
 # use_frameworks!
 
 target 'Flea POP' do
-    pod 'AFNetworking'  #버전지정안한 최신버전 개발 테스트는 2.6.1 기준
+    #pod 'AFNetworking'  #버전지정안한 최신버전 개발 테스트는 2.6.1 기준
     pod 'Parse'  #버전지정안한 최신버전 사용 개발시작은  1.9.1 기준
     
 end
