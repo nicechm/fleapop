@@ -1,0 +1,20 @@
+# Xcode
+xcuserdata
+Flea POP.xccheckout
+Flea POP.xcscmblueprint
+
+# Cocoapods
+Podfile.lock
+/Pods
+
+# Build
+/build
+/dist
+/dist_qa
+
+#ds_store
+.DS_Store
+
+# XCode 7 
+*.gcno
+*.gcda
